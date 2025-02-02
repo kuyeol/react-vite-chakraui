@@ -28,6 +28,8 @@ const HeroSection = ({ productNumber }: IProps) => {
         pt={{ base: 20, md: 36 }}
         pb={{ base: 16, md: 20 }}
       >
+        <h6>src/modules/marketing/presentation/HeroSection.tsx</h6>
+        <br />
         <Heading
           fontWeight="extrabold"
           fontSize={{ base: "3xl", sm: "4xl", md: "6xl", lg: "7xl" }}
@@ -75,6 +77,7 @@ const HeroSection = ({ productNumber }: IProps) => {
             </Text>
           </Box>
         </VStack>
+        <h1>src/modules/marketing/presentation/HeroSection.tsx</h1>
       </Stack>
     </Container>
   );

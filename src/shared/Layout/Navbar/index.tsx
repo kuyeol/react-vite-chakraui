@@ -82,11 +82,10 @@ export const Navbar = () => {
 
 const SignInButton = () => {
   const isAuthenticated = useAuthStore((store) => store.isAuthenticated);
-
+  const user = useAuthStore((store) => store.user);
   if (isAuthenticated) {
-    return null;
+    return <>{user.username} 님</>;
   }
-
   return (
     <Button fontWeight={400} variant="link" as={Link} to="/sign-in">
       Sign In

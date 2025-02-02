@@ -6,13 +6,13 @@ export const UserFixture = createFixture<IUser>({
   id: 1,
   cartId: 2,
   email: "John@gmail.com",
-  username: "johnd",
+  username: "ungyeol",
   name: {
     firstname: "John",
-    lastname: "Doe",
+    lastname: "1",
   },
   address: {
-    city: "kilcoole",
+    city: "dajeon",
     street: "7835 new road",
     number: 3,
     zipcode: "12926-3874",

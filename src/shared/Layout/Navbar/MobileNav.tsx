@@ -12,8 +12,8 @@ import {
 
 import { Link } from "shared/Router";
 
-import { INavItem } from "./INavItem";
-import { useNavItems } from "./useNavItems";
+import { INavItem } from "./Navitems/INavItem";
+import { useNavItems } from "./Navitems/useNavItems";
 
 export const MobileNav = () => {
   const bg = useColorModeValue("white", "gray.800");

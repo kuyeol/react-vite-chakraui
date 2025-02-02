@@ -21,6 +21,7 @@ const FeatureSection = () => {
 
   return (
     <Card>
+      <h1>src/modules/marketing/presentation/FeatureSection.tsx</h1>
       <CardBody px={{ base: 4, lg: 10 }} py={{ base: 6, lg: 10 }}>
         <SimpleGrid
           alignItems="center"
@@ -120,6 +121,7 @@ const FeatureSection = () => {
           </GridItem>
         </SimpleGrid>
       </CardBody>
+      <h1>src/modules/marketing/presentation/FeatureSection.tsx</h1>
     </Card>
   );
 };

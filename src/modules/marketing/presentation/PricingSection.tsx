@@ -21,6 +21,8 @@ const PricingSection = () => {
 
   return (
     <Box py={12}>
+      <h1>src/modules/marketing/presentation/PricingSection.tsx </h1>
+
       <VStack spacing={2} textAlign="center">
         <Heading
           as="h2"
@@ -167,6 +169,7 @@ const PricingSection = () => {
           </VStack>
         </PriceWrapper>
       </Stack>
+      <h1>src/modules/marketing/presentation/PricingSection.tsx</h1>
     </Box>
   );
 };

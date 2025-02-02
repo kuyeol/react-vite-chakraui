@@ -15,8 +15,8 @@ import { useBrandColor } from "theme";
 
 import { Link, useLocation } from "shared/Router";
 
-import { INavItem } from "./INavItem";
-import { useNavItems } from "./useNavItems";
+import { INavItem } from "./Navitems/INavItem";
+import { useNavItems } from "./Navitems/useNavItems";
 
 export const DesktopNav = () => {
   const { pathname } = useLocation();

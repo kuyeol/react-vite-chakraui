@@ -17,7 +17,7 @@ const ProductsList = ({ products }: IProps) => {
   }
 
   return (
-    <SimpleGrid columns={{ base: 1, md: 2 }} spacingY={16} spacingX={10}>
+    <SimpleGrid columns={{ base: 1, md: 3 }} spacingY={20} spacingX={10}>
       <ProductAddedDialog />
       {products.map((product) => (
         <GridItem key={product.id} colSpan={1}>

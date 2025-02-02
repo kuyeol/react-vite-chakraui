@@ -1,6 +1,5 @@
----
 
-# Fetch Data [`.env`](.env)
+# Rest Api _Fetch Data_ [`.env`](.env)
 
 - `.env`파일에서 url 정의 하여 데이터 로드
 
